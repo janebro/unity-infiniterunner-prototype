@@ -9,8 +9,8 @@ PlayerSettings:
   targetDevice: 2
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Runner
+  companyName: GameJan
+  productName: Infinite Runner
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_ShowUnitySplashScreen: 1
@@ -71,7 +71,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.Company.ProductName
+  bundleIdentifier: com.GameJan.InfiniteRunner
   bundleVersion: 1.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
@@ -79,7 +79,7 @@ PlayerSettings:
   xboxOneDisableKinectGpuReservation: 0
   productGUID: ae5a91e54e782be4383f197755273db0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 9
+  AndroidMinSdkVersion: 19
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   apiCompatibilityLevel: 2
@@ -134,7 +134,7 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: 659213b1d6f767c4e8a7599d99ea0854, type: 3}
       m_Size: 128
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
@@ -259,13 +259,13 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT
     2: CROSS_PLATFORM_INPUT
-    4: CROSS_PLATFORM_INPUT
-    7: CROSS_PLATFORM_INPUT
-    14: 
-    15: CROSS_PLATFORM_INPUT
-    16: CROSS_PLATFORM_INPUT
-    17: 
-    20: 
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    14: MOBILE_INPUT
+    15: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    16: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    17: MOBILE_INPUT
+    20: MOBILE_INPUT
   metroPackageName: Runner
   metroPackageLogo: 
   metroPackageLogo140: 
